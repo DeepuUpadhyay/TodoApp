@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.header{
+background-color: #fa163f;
+padding: 20px ;
+color: white;
+text-align: center;
+font-weight: bold;
+}
+/* .body{
+
+} */
+.body ul{
+  margin: 0;
+  padding: 15px;
+}
+.body ul li:nth-child(even) {background-color: #b9cced;}
+.body ul li{
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #655c56;
+  line-height: 40px;
+
+}
+.body ul li span
+{
+    cursor: pointer;
+    float: right;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-left: 9px;
+}
+.Footer{
+  position: fixed;
+  bottom: 0;
+  padding: 16px;
+  background-color: #192965;
+  width: 100%;
+}
+.Footer input{  
+  margin: auto;
+  width: 90%;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid #ffff;
+  color: #ffff;
+  font-size: 17px;
+  height: 35px;
+}
+.Footer button:focus{outline: none;}
+.Footer button{
+  position: absolute;
+  top: -34px;
+  width: 30px;
+  border-radius: 50%;
+   margin-top: 21px; 
+  height: 28px;
+  font-size: 21px;
+  line-height: 26px;
+  right: 54px;
+    background: #192965;
+    color: #ffff;
+    box-shadow: 1px 1px 4px;
+    border: none;
+    cursor: pointer;
+}
+.Footer input:focus{outline: none;}
+#update{
+  position: absolute;
+  top: -34px;
+  width: 100px;
+  border-radius: 50%;
+   margin-top: 21px; 
+  height: auto;
+  font-size: 21px;
+  line-height: 26px;
+  right: 54px;
+    background: #192965;
+    color: #ffff;
+    box-shadow: 1px 1px 4px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
